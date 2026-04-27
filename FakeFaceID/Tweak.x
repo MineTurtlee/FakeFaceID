@@ -393,7 +393,7 @@ static void _ffi_onTestAuth(CFNotificationCenterRef c, void *o, CFStringRef n, c
     if ([self.bundleIdentifier isEqualToString:@"com.apple.preferences-ui-framework"]
             && [tableName isEqualToString:@"Passcode Lock"]
             && [key isEqualToString:@"PASSCODE_ON"]) {
-        return [NSString stringWithFormat:@"%@ (FakePass)", ret];
+        return [NSString stringWithFormat:@"%@ (FakeFaceID)", ret];
     }
 
     return ret;
