@@ -1,0 +1,9 @@
+Package: com.mineturtlee.fakefaceid
+Name: FakeFaceID
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: Fake Face ID on A11 palera1n rootless — hooks Pearl enrollment directly, AES-256 storage
+Maintainer: mineturtlee
+Author: mineturtlee
+Section: Tweaks
